@@ -9,4 +9,4 @@ http.createServer(function(request, response){
     response.write(JSON.stringify(obj));
     // closing the server
     response.end();
-}).listen(9000);
+}).listen(3000);
